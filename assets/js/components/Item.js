@@ -1,6 +1,7 @@
 import React from 'react';
+var createReactClass = require('create-react-class');
 
-const Item = React.createClass({
+const Item = createReactClass({
 
   handleOnChange(e) {
     const content = e.target.value;

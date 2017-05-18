@@ -1,7 +1,8 @@
 import React from 'react';
 import Item from './Item';
+var createReactClass = require('create-react-class');
 
-const List = React.createClass({
+const List = createReactClass({
   handleSubmit(e) {
     e.preventDefault();
     const content = this.refs.content.value;
